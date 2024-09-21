@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Peely best bananas</title>
+    @Scripts.Render("~/bundles/modernizr")
+
+    <link rel="stylesheet" href="~/Content/sharedstyle.css">
+    <link rel="icon" type="image/x-icon" href="~/Resources/5a2b4311126282eea2b103161cfa7b0a-fococlipping-standard.png">
+
+</head>
+<body>
+    <div class="navnav clearfix">
+        <nav class="">
+            <div class="">
+                @Html.ActionLink("Peely", "Index", "Home", new { area = "" }, new { @class = "bigtext" })
+
+                <div>
+                    <ul class="liststyle">
+                        <li>@Html.ActionLink("Home", "Index", "Home", new { area = "" }, new { @class = "navlink borderl" })</li>
+                        <li>@Html.ActionLink("About", "About", "Home", new { area = "" }, new { @class = "navlink" })</li>
+                        <li>@Html.ActionLink("Contact", "Contact", "Home", new { area = "" }, new { @class = "navlink borderr" })</li>
+                    </ul>
+                    @Html.Partial("_LoginPartial")
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="">
+        @RenderBody()
+        <br />
+        <footer class="footerbase">
+            <div class="footer-text">
+                <div class="footer-fonts">
+                    <p>&copy; @DateTime.Now.Year - Peely ~ Best bananas</p>
+                    <p class="touchup">frequently asked questions</p>
+                </div>
+                <img class="footerpic" src="~/Resources/5a2b4311126282eea2b103161cfa7b0a-fococlipping-standard.png"; alt="peely logo">
+            </div>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

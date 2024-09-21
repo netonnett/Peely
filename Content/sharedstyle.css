@@ -1,0 +1,145 @@
+﻿body {
+}
+
+/* common for all */
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* navigationbar style */
+
+.navnav{
+    background-color:#71330A;
+    margin-bottom: 1vw;
+}
+
+/* logo text */
+
+.bigtext {
+    display: block;
+    margin-top: 10px;
+    float: left;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 15px;
+
+    text-decoration: none;
+    font-size: 40px;
+    color: #EFD62E;
+    font-weight: bold;
+    font-family: 'Times New Roman';
+    font-style: italic;
+    letter-spacing: 2px;
+}
+
+/* hovers */
+.bigtext:hover, .navlink:hover, .navlinkr:hover, .touchup:hover{
+    color: #95CE64;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: #629365;
+    text-decoration-thickness: 1px;
+}
+
+/* navigation links/buttons */
+
+.navlink {
+    display: block;
+    margin-top: 26px;
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    font-size: 16px;
+    color: #F3DE53;
+    font-family: 'Times New Roman';
+    letter-spacing: 2px;
+    text-decoration: none;
+    border-left: solid;
+    border-color: rgba(149, 206, 100, 0.5);
+    padding-top: 5px;
+    border-width: 2px;
+}
+
+.liststyle {
+    list-style-type: none;
+}
+
+.navlinkr {
+    float: right;
+    display: block;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    margin-top: 26px;
+
+    color: #F3DE53;
+    font-size: 16px;
+    font-family: 'Times New Roman';
+    letter-spacing: 2px;
+    text-decoration: none;
+
+    border-left: solid;
+    border-color: rgba(149, 206, 100, 0.5);
+    padding-top: 5px;
+    border-width: 2px;
+}
+
+.borderl {
+    border-left: solid;
+    border-color: rgba(149, 206, 100, 0.5);
+    padding-top: 5px;
+    border-width: 2px;
+}
+
+.borderr {
+    border-right: solid;
+    border-color: rgba(149, 206, 100, 0.5);
+    padding-top: 5px;
+    border-width: 2px;
+}
+
+/* footer */
+
+.footerbase {
+    background-color: #71330A;
+}
+
+.footer-text{
+    padding: 1vw;
+    padding-left: 41vw;
+    padding-top:2vw;
+
+}
+
+.touchup{
+    padding-left: 1vw;
+    padding-top: 0.5vw;
+    font-style: italic;
+}
+
+.footer-fonts{
+    font-family: 'Times New Roman';
+    color: #EFD62E;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+
+
+/* footer picture */
+
+.footerpic{
+    height:4.5vw;
+    width:4.5vw;
+    padding-left: 7vw;
+    padding-top:1vw;
+    opacity:0.85;
+}
