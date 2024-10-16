@@ -7,7 +7,202 @@
 </hed>
 
 <main>
-    <div class="fornow">
-        <p>bannans will be buyable here</p>
+    <div class="clearfix">
+
+        <div class="mainthingy">
+
+            <div class="slideshow-container">
+
+                <div class="mySlides fade">
+
+                    <img class="size" src="~/Resources/bananasss.jpg" style="width:100%">
+
+                </div>
+
+                <div class="mySlides fade">
+
+                    <img class="size" src="~/Resources/bananna.jpg" style="width:100%">
+
+                </div>
+
+                <div class="mySlides fade">
+
+                    <img class="size" src="~/Resources/green banana].jpg" style="width:100%">
+
+                </div>
+            </div>
+            <div style="text-align:center">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
+
+        <div>
+            <p class="inspotext">"Bananas: because sometimes you just need a fruit that comes with its own wrapper"</p>
+        </div>
+        <br />
+
+        <div class="clearfix">
+            <p class="heading2">Shop Now</p>
+            <br />
+            <p class="description">
+                Shop our amazing bananas today.
+                <br />
+                Clicking this button will take you to a unique shopping experience.
+                <br />
+                Unlocking a whole new world filled with bananas.
+            </p>
+
+            <div class="imgboxx">
+                <img class="imgbananas" src="~/Resources/Image-_1_.jpg" ; alt="peely bananas" />
+                <div class="overlayyy">
+
+                    <div class="texttth"> Peely ~ Fresh Bananas just for you</div>
+                </div>
+            </div>
+
+
+            <div class="sizefixb">
+                @Html.ActionLink("Our products »", "Mproduct", "Home", new { area = "" }, new { @class = "pbutton" })
+            </div>
+            <br />
+        </div>
+        <br />
+        <br />
+        <div class="clearfix">
+            <p class="heading2">
+                Our most popular products
+            </p>
+            <br />
+            <p class="descriptionpp">
+                Unsure what you would like? Check out our other costumers favourites! <br />Because we know that sometimes choosing gets hard…
+            </p>
+            <div class="productbox">
+                <img class="ppimg" src="~/Resources/bananapp1.jpg" alt="green banana" />
+
+                <img class="ppimg" src="~/Resources/bananapp2.jpg" alt="green banana" />
+
+                <img class="ppimg" src="~/Resources/bananapp8.jpg" alt="green banana" />
+
+                <img class="ppimg" src="~/Resources/bananapp4.jpg" alt="green banana" />
+
+                <img class="ppimg" src="~/Resources/banana5pp.jpg" alt="green banana" />
+
+                <img class="ppimg" src="~/Resources/bananapp6.jpg" alt="green banana" />
+
+                <img class="ppimg" src="~/Resources/bananapp3.jpg" alt="green banana" />
+
+                <img class="ppimgl" src="~/Resources/bananapp7.jpg" alt="green banana" />
+
+                <div class="overflow">
+                    <span class="imgdes lpp">Yellow medium long banana</span>
+                    <span class="imgdes llpp">Bulck yellow long bananas</span>
+                    <span class="imgdes vlpp">Short half browned banana</span>
+                    <span class="imgdes spp">Green medium long banana</span>
+                    <span class="imgdes sslpp">Short thick yellow banana</span>
+                    <span class="imgdes vmlpp">Green small long banana</span>
+                    <span class="imgdes vvmpp">Green "line" banana</span>
+                    <span class="imgdesl">Perfect short banana</span>
+                </div>
+
+                <div class="overflow">
+                    <span> @Html.ActionLink("Shop now »", "yelMLban", "Home", new { area = "" }, new { @class = "psbutton f" })</span>
+                    <span> @Html.ActionLink("Shop now »", "yelMLban", "Home", new { area = "" }, new { @class = "psbutton" })</span>
+                    <span> @Html.ActionLink("Shop now »", "yelMLban", "Home", new { area = "" }, new { @class = "psbutton" })</span>
+                    <span> @Html.ActionLink("Shop now »", "yelMLban", "Home", new { area = "" }, new { @class = "psbutton" })</span>
+                    <span> @Html.ActionLink("Shop now »", "yelMLban", "Home", new { area = "" }, new { @class = "psbutton" })</span>
+                    <span> @Html.ActionLink("Shop now »", "yelMLban", "Home", new { area = "" }, new { @class = "psbutton" })</span>
+                    <span> @Html.ActionLink("Shop now »", "yelMLban", "Home", new { area = "" }, new { @class = "psbutton" })</span>
+                    <span> @Html.ActionLink("Shop now »", "yelMLban", "Home", new { area = "" }, new { @class = "l" })</span>
+                </div>
+            </div>
+        </div>
+
+        <br />
+        <div class="clearfix">
+            <p class="heading2">Our team on the fields</p>
+            <br />
+            <p class="workinfo">
+                From the fields to the table we know quality matters. That is why we prioritise our workers as much as our customers and products.
+                <br />
+                At Peely we follow strict regulations regarding working conditions ensuring our workers safety and happiness.<br />
+                Want to know more about our company?
+            </p>
+
+
+            <div class="wimgbox">
+                <img class="workimg" src="~/Resources/happy worker.jpg" ; alt="peely happy worker" />
+                <div class="woverlay">
+                    <div class="wtexto">
+                        Peely ~
+                        our workers happiness matter
+                    </div>
+                </div>
+            </div>
+            <div>
+                @Html.ActionLink("More about Peely »", "About", "Home", new { area = "" }, new { @class = "abutton" })
+            </div>
+        </div>
+        <br />
+        <br />
+        <br />
+        <div class="clearfix">
+            <p class="heading2">Now in store!</p>
+            <br />
+            <p class="description locdes">You asked, we delivered!<br /> Now you can get your favourites from <span class="peelyloc">Peely</span> and <a href="https://netonnett.github.io/webbishen/" target="_blank" class="spudly-link">Spudly</a> products in our newly opened physical store! Located in Utah Lehi we bring our quality products from the screen to the shelves. We guarantee the same freshness in our store bought products as in our webshop. <br />Whilst we know some people prefer real life shopping, our online store offers too many products to keep in one store. <br />However we switch up our products in store regularly and if you can not find what you're looking for our staff members are more than happy to help our loyal customers. </p>
+            <div class="limgbox">
+                <img class="locationimg" src="~/Resources/peelystorelocation.png" alt="store location Utah" />
+                <div class="loverlay wth">
+                    <div class="ltexto">
+                        Peely ~ now for the first time in store
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br />
+        <br />
+        <hr />
+        <div class="clearfix">
+            <div>
+                <span class="sponthank">
+                    Special thanks to our sponsors!
+                </span>
+            </div>
+            <div class="sbox">
+                <img class="simg fimgs" src="~/Resources/spudlysponsor-fococlipping-standard.png" alt="spudly logo" />
+                <span class="stext">Spudly</span>
+                <img class="simg" src="~/Resources/bananasponsor.png" alt="banans logo" />
+                <span class="stext">bananas for all</span>
+            </div>
+        </div>
+        <hr />
+
+       
+
+        <script>
+            let slideIndex = 0;
+            showSlides();
+
+            function showSlides() {
+                let i;
+                let slides = document.getElementsByClassName("mySlides");
+                let dots = document.getElementsByClassName("dot");
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                slideIndex++;
+                if (slideIndex > slides.length) { slideIndex = 1 }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex - 1].style.display = "block";
+                dots[slideIndex - 1].className += " active";
+                setTimeout(showSlides, 5000); // Change image every 2 seconds
+            }
+
+           
+        </script>
+
     </div>
 </main>

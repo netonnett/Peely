@@ -11,6 +11,7 @@
 
 </head>
 <body>
+  
     <div class="navnav clearfix">
         <nav class="">
             <div class="">
@@ -19,6 +20,7 @@
                 <div>
                     <ul class="liststyle">
                         <li>@Html.ActionLink("Home", "Index", "Home", new { area = "" }, new { @class = "navlink borderl" })</li>
+                        <li>@Html.ActionLink("Products", "Mproduct", "Home", new { area = "" }, new { @class = "navlink" })</li>
                         <li>@Html.ActionLink("About", "About", "Home", new { area = "" }, new { @class = "navlink" })</li>
                         <li>@Html.ActionLink("Contact", "Contact", "Home", new { area = "" }, new { @class = "navlink borderr" })</li>
                     </ul>
@@ -26,6 +28,16 @@
                 </div>
             </div>
         </nav>
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "topnav";
+                }
+            }
+        </script>
     </div>
     <div class="">
         @RenderBody()
@@ -33,13 +45,32 @@
         <footer class="footerbase">
             <div class="footer-text">
                 <div class="footer-fonts">
-                    <p>&copy; @DateTime.Now.Year - Peely ~ Best bananas</p>
-                    <p class="touchup">frequently asked questions</p>
+                    <p class="offsite">&copy; @DateTime.Now.Year - Peely ~ Best bananas</p>
+                    @Html.ActionLink("Frequently asked questions", "Fqa", "Home", new { area = "" }, new { @class = "touchup footer-link" })
                 </div>
-                <img class="footerpic" src="~/Resources/5a2b4311126282eea2b103161cfa7b0a-fococlipping-standard.png"; alt="peely logo">
+                <img class="footerpic" src="~/Resources/5a2b4311126282eea2b103161cfa7b0a-fococlipping-standard.png" ; alt="peely logo">
             </div>
+
         </footer>
     </div>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top" class="totop">⬆</button>
+    <script>
+        let mybutton = document.getElementById("myBtn");
+
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+        function topFunction() {
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
 
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")

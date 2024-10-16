@@ -26,5 +26,20 @@ namespace Peelyyy.Controllers
 
             return View();
         }
+
+       public ActionResult Fqa()
+        {
+            return View();
+        }
+
+        public ActionResult Mproduct()
+        {
+            return View();
+        }
+
+        public ActionResult yelMLban()
+        {
+            return View();
+        }
     }
 }
