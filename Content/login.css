@@ -1,0 +1,189 @@
+﻿/* common */
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+/*scrollbar hide*/
+
+* {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+    *::-webkit-scrollbar {
+        display: none;
+    }
+
+/* title */
+.heading {
+    font-size: 38px;
+    font-style: italic;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    letter-spacing: 0.25vw;
+    color: #71330A;
+    cursor: default;
+}
+
+.headingbox {
+    margin-left: 41vw;
+    margin-top: 2vw;
+}
+
+/* smaller text */
+
+.heading2 {
+    font-size: 28px;
+    font-style: italic;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    letter-spacing: 0.5vw;
+    color: #71330A;
+    margin-left: 8vw;
+    margin-bottom: 2vw;
+    cursor: default;
+}
+
+.heading3 {
+    font-size: 18px;
+    font-style: italic;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    letter-spacing: 0.5vw;
+    color: #71330A;
+    margin-left: 8vw;
+    opacity: 0.5;
+    cursor: default;
+}
+
+.heading3box {
+    margin-top: 0.5vw;
+    margin-bottom: 1vw;
+}
+
+/* lines */
+
+hr {
+    width: 90vw;
+    color: rgba(127, 194, 155, 0.65);
+    margin: 1vw 0vw 2vw 5vw;
+}
+
+/* email and password label*/
+
+.labeltext {
+    font-size: 22px;
+    color: #412F25;
+    font-style: italic;
+    font-weight: 600;
+    margin-left: 14vw;
+    cursor: default;
+   
+}
+
+/* email and password box */
+
+.textbox{
+    width: 17%;
+    padding: 0.5vw;
+    border: 0.25vw solid rgba(127, 194, 155, 0.65);
+    margin: 0.5vw 0vw 0.5vw 14vw;
+    border-radius: 0.25vw;
+    cursor: auto;
+    box-sizing: border-box;
+    outline: none;
+    transition: 0.5s;
+
+}
+
+.textbox:focus{
+    border-color: #629365;
+    width: 20%;
+}
+
+.loginbox{
+    margin-top: 3vw;
+    margin-bottom: 1vw;
+}
+
+
+/* remember me */
+
+.rembox{
+    margin-left: 14vw;
+}
+
+.remcheck {
+    accent-color: #7FC29B;
+    cursor: pointer;
+}
+
+.remtext {
+    color: #629365;
+}
+
+.remsa{
+    opacity: 0.5;
+}
+
+/* login button */
+
+.logbutton {
+    padding: 0.5vw 4vw;
+    font-size: 22px;
+    border: none;
+    border-radius: 4vw;
+    background-color: #629365;
+    color: #D3F6B7;
+    text-decoration: none;
+    transition: 0.5s;
+    margin-left: 17vw;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 2vw;
+    font-family: 'Times New Roman';
+    letter-spacing: 0.15vw;
+    cursor: pointer;
+}
+
+.logbutton:hover {
+    transition: 0.5s;
+    font-weight: bold;
+    font-style: italic;
+    color: #629365;
+    background-color: #D3F6B7;
+    text-decoration: wavy;
+    text-decoration-thickness: 5px;
+    text-decoration-color: #E1C914;
+    padding-right: 5vw;
+    padding-left: 5vw;
+}
+
+/* register link */
+
+.textnew{
+    opacity: 0.5;
+    color: #412F25;
+    margin: 1vw 0vw 2vw 18vw;
+    cursor: default;
+}
+
+.registerlink{
+    font-style: italic;
+    color: #412F25;
+    text-decoration-color: rgba(127, 194, 155, 0.5);
+    cursor: pointer;
+}
+
+.registerlink:hover {
+    color: #629365;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: #412F25;
+    text-decoration-thickness: 0.25px;
+}
+

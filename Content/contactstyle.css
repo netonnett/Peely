@@ -1,0 +1,54 @@
+﻿body {
+}
+
+/* common */
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/*scrollbar hide*/
+
+* {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+    *::-webkit-scrollbar {
+        display: none;
+    }
+
+/* heading style */
+
+.heading {
+    font-size: 38px;
+    font-style: italic;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    letter-spacing: 0.25vw;
+    color: #71330A;
+}
+
+.headingbox {
+    margin-left: 41vw;
+    margin-top: 2vw;
+}
+
+/* info texts */
+
+.infotext {
+    font-size: 20px;
+    font-family: 'Times New Roman';
+    color: #412F25;
+    line-height: 1.8;
+}
+
+.infotextbox {
+    margin: 2vw 3vw 2vw 11vw;
+}
+
+.email {
+    text-decoration: underline wavy #629365 0.05vw;
+}

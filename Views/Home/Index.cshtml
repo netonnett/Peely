@@ -118,7 +118,59 @@
                 </div>
             </div>
         </div>
+        <br />
+        <div class="clearfix">
+            <p class="heading2">
+                Limited edition products
+            </p>
+            <br />
+            <p class="description lep">
+                Check out these limited edition products. <br />These products are only available for a limited amount of time… so hurry up before they disappear forever. <br />Some of these products are only avalible in limited quantities.
+            </p>
+            <div class="productbox">
+                <img class="ppimg" src="~/Resources/banhelm.png" alt="green banana" />
 
+                <img class="ppimg" src="~/Resources/bananmug.png" alt="green banana" />
+
+                <img class="ppimg" src="~/Resources/bananapp6.jpg" alt="green banana" />
+
+                <img class="ppimg" src="~/Resources/bananaclock.png" alt="green banana" />
+
+                <img class="ppimg" src="~/Resources/bananabowl.png" alt="green banana" />
+
+                <img class="ppimg" src="~/Resources/custchrissock.jpg" alt="green banana" />
+
+                <img class="ppimg" src="~/Resources/bananaornament.png" alt="green banana" />
+
+                <img class="ppimg" src="~/Resources/bananaornament2.jpg" alt="green banana" />
+
+                <img class="ppimgl redban" src="~/Resources/redbananas.jpg" alt="green banana" />
+
+                <div class="overflow">
+                    <span class="imgdes flp">Limited Peely banana pin</span>
+                    <span class="imgdes slp">Limited premium Banana mug</span>
+                    <span class="imgdes tlp">Limited Peely plushy</span>
+                    <span class="imgdes frlp">New! limited banana clock</span>
+                    <span class="imgdes filp">Limited Peely bowl</span>
+                    <span class="imgdes silp">New! customizable christmas sock</span>
+                    <span class="imgdes selp">Limited christmas banana ornament</span>
+                    <span class="imgdes">Limited christmas ornament</span>
+                    <span class="imgdesl">Limited christmas banana</span>
+                </div>
+
+                <div class="overflow">
+                    <span> @Html.ActionLink("Shop now »", "yelMLban", "Home", new { area = "" }, new { @class = "psbutton f" })</span>
+                    <span> @Html.ActionLink("Shop now »", "yelMLban", "Home", new { area = "" }, new { @class = "psbutton" })</span>
+                    <span> @Html.ActionLink("Shop now »", "yelMLban", "Home", new { area = "" }, new { @class = "psbutton" })</span>
+                    <span> @Html.ActionLink("Shop now »", "yelMLban", "Home", new { area = "" }, new { @class = "psbutton" })</span>
+                    <span> @Html.ActionLink("Shop now »", "yelMLban", "Home", new { area = "" }, new { @class = "psbutton" })</span>
+                    <span> @Html.ActionLink("Shop now »", "yelMLban", "Home", new { area = "" }, new { @class = "psbutton" })</span>
+                    <span> @Html.ActionLink("Shop now »", "yelMLban", "Home", new { area = "" }, new { @class = "psbutton" })</span>
+                    <span> @Html.ActionLink("Shop now »", "yelMLban", "Home", new { area = "" }, new { @class = "psbutton" })</span>
+                    <span> @Html.ActionLink("Shop now »", "yelMLban", "Home", new { area = "" }, new { @class = "l" })</span>
+                </div>
+            </div>
+        </div>
         <br />
         <div class="clearfix">
             <p class="heading2">Our team on the fields</p>
@@ -162,6 +214,28 @@
         </div>
         <br />
         <br />
+        <div class="clearfix">
+            <p class="heading2">Recepies!</p>
+            <br />
+            <p class="workinfo">
+                Sometimes when you have you wonderfully fresh Peely bananas you just don't know what to do with them… all these options that get presented… “Do  I eat them?” “Do I bake them?”<br />
+                Now we introduce a new page filled with recipes to try out if you get lost in the endless dilemma, and if nothing is for interest we collected a few of our favourite websites recommending endless recipes.<br />
+            </p>
+            <div class="wimgbox">
+                <img class="workimg" src="~/Resources/banan.jpg" ; alt="banana pancake" />
+                <div class="woverlay">
+                    <div class="wtexto">
+                        Peely ~
+                        recepies just for you
+                    </div>
+                </div>
+            </div>
+            <div>
+                @Html.ActionLink("Recepies »", "recepies", "Home", new { area = "" }, new { @class = "abutton" })
+            </div>
+        </div>
+        <br />
+        <br />
         <hr />
         <div class="clearfix">
             <div>
@@ -198,7 +272,7 @@
                 }
                 slides[slideIndex - 1].style.display = "block";
                 dots[slideIndex - 1].className += " active";
-                setTimeout(showSlides, 5000); // Change image every 2 seconds
+                setTimeout(showSlides, 5000); // Change image every 5 seconds
             }
 
            

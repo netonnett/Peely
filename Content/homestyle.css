@@ -417,6 +417,7 @@
     display: block;
     margin-top: 1vw;
     padding-left: 4vw;
+  
 }
 
 .psbutton {
@@ -585,3 +586,32 @@ hr {
     padding-top: 1vw;
 }
 
+/* limited products */
+.flp{
+    padding-right: 0.8vw;
+}
+
+.slp{
+    padding-right: 1vw;
+}
+
+.tlp, .frlp {
+    padding-right: 2.5vw;
+}
+
+.filp{
+    padding-right: 0.8vw;
+}
+
+.silp{
+    margin-right: 1.5vw; 
+}
+
+.selp{
+    margin-right: 2vw;
+}
+
+.redban {
+    border-style: solid;
+    border-color: rgba(149, 206, 100, 0.25);
+}

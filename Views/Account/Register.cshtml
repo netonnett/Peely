@@ -1,40 +1,55 @@
 ﻿@model Peelyyy.Models.RegisterViewModel
 @{
-    ViewBag.Title = "Register";
+    ViewBag.Title = "Register now!";
 }
 
-<main aria-labelledby="title">
-    <h2 id="title">@ViewBag.Title.</h2>
+<head>
+    <link rel="stylesheet" href="~/Content/registration.css">
+</head>
 
+<main>
+    <div class="headingbox">
+        <h2 class="heading" id="title">@ViewBag.Title</h2>
+    </div>
     @using (Html.BeginForm("Register", "Account", FormMethod.Post, new { role = "form" }))
     {
         @Html.AntiForgeryToken()
-        <h4>Create a new account.</h4>
         <hr />
         @Html.ValidationSummary("", new { @class = "text-danger" })
-        <div class="row">
-            @Html.LabelFor(m => m.Email, new { @class = "col-md-2 col-form-label" })
-            <div class="col-md-10">
-                @Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
+        <div class="heading2">
+            Welcome to Peely!
+        </div>
+        <div class="heading3box">
+            <span class="heading3">
+                Register today to become a part of the largest banana family!
+            </span>
+        </div>
+        <div class="regbox">
+            @Html.LabelFor(m => m.Email, new { @class = "labeltext" })
+            <div>
+                @Html.TextBoxFor(m => m.Email, new { placeholder = "example@email.com", @class = "textbox" })
             </div>
         </div>
-        <div class="row">
-            @Html.LabelFor(m => m.Password, new { @class = "col-md-2 col-form-label" })
-            <div class="col-md-10">
-                @Html.PasswordFor(m => m.Password, new { @class = "form-control" })
+        <div>
+            @Html.LabelFor(m => m.Password, new { @class = "labeltext" })
+            <div>
+                @Html.PasswordFor(m => m.Password, new { placeholder = "password", @class = "textbox" })
             </div>
         </div>
-        <div class="row">
-            @Html.LabelFor(m => m.ConfirmPassword, new { @class = "col-md-2 col-form-label" })
-            <div class="col-md-10">
-                @Html.PasswordFor(m => m.ConfirmPassword, new { @class = "form-control" })
+        <div>
+            @Html.LabelFor(m => m.ConfirmPassword, new { @class = "labeltext" })
+            <div>
+                @Html.PasswordFor(m => m.ConfirmPassword, new { placeholder = "comfirm password", @class = "textbox" })
             </div>
         </div>
-        <div class="row">
-            <div class="offset-md-2 col-md-10">
-                <input type="submit" value="Register" class="btn btn-outline-dark" />
+        <br />
+        <div>
+            <div>
+                <input type="submit" value="Register" class="logbutton" />
             </div>
         </div>
+        <br />
+        <hr />
     }
 </main>
 

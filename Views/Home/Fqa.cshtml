@@ -1,7 +1,213 @@
 ﻿
 @{
-    ViewBag.Title = "Fqa";
+    ViewBag.Title = "Frequently asked questions";
 }
 
-<h2>Fqa</h2>
+<head>
+    <link rel="stylesheet" href="~/Content/fqastyle.css" />
+</head>
 
+<main>
+    <div>
+        <div class="headingbox">
+            <span class="heading">Frequently asked questions</span>
+        </div>
+        <br />
+        <div class="navlist clearfix">
+            <div class="navitems firstnavitem">
+                    <a href="#ourproducts" class="navlinka">Our products</a>
+                <div class="dropdown-content pro">
+                    <a href="#typesban" class="dropdown-item first-item">Types of bananas</a><br />
+                    <a href="#quality" class="dropdown-item">Quality assurance</a><br />
+                    <a href="#health" class="dropdown-item">Health and nutrition</a><br />
+                    <a href="#safe" class="dropdown-item">Safety and handling</a><br />
+                    <a href="#storage" class="dropdown-item last-item">Storage and freshness</a>
+                </div>
+            </div>
+            <div class="navitems">
+                <a href="#order" class="navlinka">Ordering and delivery</a>
+                <div class="dropdown-content dev">
+                    <a href="#" class="dropdown-item first-item">Shipping queries</a><br />
+                    <a href="#" class="dropdown-item">Packaging</a><br />
+                    <a href="#" class="dropdown-item">Delivery queries</a><br />
+                    <a href="#" class="dropdown-item last-item">Returns</a>
+                </div>
+            </div>
+            <div class="navitems">
+                <a href="" class="navlinka">Pricing and payments</a>
+                <div class="dropdown-content pri">
+                    <a href="#" class="dropdown-item first-item">Pricing</a><br />
+                    <a href="#" class="dropdown-item">Payment methods</a><br />
+                    <a href="#" class="dropdown-item last-item">Delivery fees</a>
+                </div>
+            </div>
+            <div class="navitems">
+                <a href="" class="navlinka">Customization</a>
+                <div class="dropdown-content cus">
+                    <a href="#" class="dropdown-item first-item">Banana customization</a><br />
+                    <a href="#" class="dropdown-item">Gifts</a><br />
+                    <a href="#" class="dropdown-item last-item">Special bulk orders</a>
+                </div>
+            </div>
+            <div class="navitems">
+                <a href="" class="navlinka">Costumer service</a>
+                <div class="dropdown-content cos">
+                    <a href="#" class="dropdown-item first-item">Costumer service queries</a><br />
+                    <a href="#" class="dropdown-item last-item">Feedback</a>
+                </div>
+            </div>
+            <div class="navitems">
+                <a href="" class="navlinka">Our physical store</a>
+                <div class="dropdown-content store">
+                    <a href="#" class="dropdown-item first-item">Product availibility</a><br />
+                    <a href="#" class="dropdown-item">Opening hours and location</a><br />
+                    <a href="#" class="dropdown-item">In-store services and policies</a><br />
+                    <a href="#" class="dropdown-item last-item">Special promotions in store</a>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div>
+                <span class="heading2" id="ourproducts">Our products</span>
+                <hr />
+                <span id="typesban"> </span>
+                <span class="heading3">Our types of bananas</span>
+                <br />
+                <span class="questions">What types of bananas do you offer?</span>
+                <div class="infotextbox">
+                    <span class="infotext">
+                        At Peely we sell all types of bananas in every variation. From the smallest to the biggest to the most medium sized. We sell every banana you can imagine from all over the world. You can choose the banana that mostly resonates with you. The options are endless from our limited edition bananas to our regulars and customers' favourites you can choose freely. <br />
+                        With even the ripeness of the bananas customizable, Peely gives you endless choices.
+                        If there is something that you find missing do not hesitate to @Html.ActionLink("contact us!", "Contact", "Home", new {area = ""}, new {@class="link-in-text"})<br />
+                        The variation in our products always stays up to date and we offer all types of bananas that are currently popular on the market. With our amazing social media team, they constantly make sure that we give our customers the latest banana trends. <br />
+                    </span>
+                </div>
+                <br />
+                <span class="questions">Do you sell different ripeness levels, like green, yellow, or overripe bananas?</span>
+                <div class="infotextbox">
+                    <span class="infotext">
+                        We know that finding the perfect banana is difficult. However, at Peely it has never been easier. We offer bananas in all different ripeness. If you would like your bananas at a specific ripeness there is a high chance Peely got it. <br />
+                        We offer everything from green bananas to overripe bananas because we know that everyone prefers a different type. <br />
+                        Our bananas are also perfect for baking. Sometimes when you bake you just need the perfectly ripe banana to enhance the flavours. Check out our @Html.ActionLink("product list", "Mproduct", "Home", new {area = ""}, new {@class= "link-in-text" }) to see exactly what type of ripeness levels we offer. <br />
+
+                    </span>
+                </div>
+                <br />
+                <span class="questions">What variety of bananas do you sell (e.g., Cavendish, Red bananas, Plantains)?</span>
+                <div class="infotextbox">
+                    <span class="infotext">
+                        Some types of bananas are quite rare. When you ask most people they have never heard of a blue java or Manzano banana. Whilst these might not be the most popular bananas they are still perfect in their own way. We do offer these special types of bananas on Peely.<br />
+                        However, some of these are only available for a short period of time or in limited quantities. <br />
+                        Although, we know this is not ideal. Some of these bananas are hard to come by at all times of the year. Sadly they aren't very popular either. Whilst we know this breaks our little bananas hearts it is the sad truth… <br />
+                        That is why these special bananas are available throughout the year for a short period of time or in limited quantities. <br />
+                        If you however would like any special type of bananas do not hesitate to @Html.ActionLink("contact us", "Contact", "Home", new {area = ""}, new {@class= "link-in-text"}) because we will do our best to deliver them to you.<br />
+                        Nevertheless, throughout the year you can find the most popular banana types always available in different types and ripeness. <br />
+                    </span>
+                </div>
+                <span class="questions">Do you offer plantains or other types of cooking bananas?</span>
+                <br />
+                <div class="infotextbox">
+                    <span class="infotext">
+                        As big baking enthusiasts, we offer all types of cooking bananas and bananas that are ready to be baked. We also offer recipes and already baked bananas like fried bananas. <br />
+                        For new banana lovers it can be hard to navigate which banana is the best for the different baked goods. That is why at our @Html.ActionLink("recepies", "recepies", "Home", new {area = ""}, new {@class ="link-in-text"}) page you can find guidance in which bananas we recommend. <br />
+                        Under our product list you can see all types of bananas and if you click on them you can find a little mark that shows if the specific banana is baking certified.<br />
+                    </span>
+                </div>
+                <span id="quality"> </span>
+                <span class="heading3">Quality assurance</span>
+                <br />
+                <span class="questions">How do you ensure the quality of bananas during transit?</span>
+                <br />
+                <div class="infotextbox">
+                    <span class="infotext">
+
+                    </span>
+                </div>
+                <span class="questions">Is there a quality guarantee for your bananas?</span>
+                <br />
+                <div class="infotextbox">
+                    <span class="infotext">
+
+                    </span>
+                </div>
+                <span id="health"> </span>
+                <span class="heading3">Health and nutrition</span>
+                <br />
+                <span class="questions">Are your bananas suitable for people with dietary restrictions (e.g., vegan, gluten-free)?</span>
+                <br />
+                <div class="infotextbox">
+                    <span class="infotext">
+
+                    </span>
+                </div>
+                <span class="questions">Do bananas have any added preservatives or chemicals?</span>
+                <br />
+                <div class="infotextbox">
+                    <span class="infotext">
+
+                    </span>
+                </div>
+                <span class="questions">Are your bananas organic or non-GMO?</span>
+                <br />
+                <div class="infotextbox">
+                    <span class="infotext">
+
+                    </span>
+                </div>
+                <span class="questions">Can I find information on the health benefits of different banana types?</span>
+                <br />
+                <div class="infotextbox">
+                    <span class="infotext">
+
+                    </span>
+                </div>
+                <span id="safe"> </span>
+                <span class="heading3">Safety and handling</span>
+                <br />
+                <span class="questions">Are the bananas washed or treated before shipping?</span>
+                <br />
+                <div class="infotextbox">
+                    <span class="infotext">
+
+                    </span>
+                </div>
+                <span class="questions">Are there any allergens in the packaging or processing of your bananas?</span>
+                <br />
+                <div class="infotextbox">
+                    <span class="infotext">
+
+                    </span>
+                </div>
+                <span class="questions">Are your bananas safe for babies or young children?</span>
+                <br />
+                <div class="infotextbox">
+                    <span class="infotext">
+
+                    </span>
+                </div>
+                <span id="storage"> </span>
+                <span class="heading3">Storage and freshness</span>
+                <br />
+                <span class="questions">Do you offer guidance on freezing bananas for smoothies or baking?</span>
+                <br />
+                <div class="infotextbox">
+                    <span class="infotext">
+
+                    </span>
+                </div>
+                <span class="questions">Can bananas be refrigerated to extend their freshness?</span>
+                <br />
+                <div class="infotextbox">
+                    <span class="infotext">
+
+                    </span>
+                </div>
+            </div>
+            <br />
+            <div>
+                <span class="heading2" id="order">Ordering and delivery</span>
+                <hr />
+            </div>
+        </div>
+    </div>
+</main>

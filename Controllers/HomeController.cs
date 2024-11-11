@@ -41,5 +41,10 @@ namespace Peelyyy.Controllers
         {
             return View();
         }
+
+        public ActionResult recepies()
+        {
+            return View();
+        }
     }
 }

@@ -168,6 +168,8 @@
     <Compile Include="App_Start\IdentityConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
+    <Compile Include="Content\program\EmailSender.cs" />
+    <Compile Include="Content\program\thesender.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
@@ -188,7 +190,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\aboutusstyle.css" />
+    <Content Include="Content\fqastyle.css" />
+    <Content Include="Content\javascript\contactinfo.js" />
+    <Content Include="Content\contactstyle.css" />
     <Content Include="Content\homestyle.css" />
+    <Content Include="Content\login.css" />
+    <Content Include="Content\registration.css" />
     <Content Include="Content\sharedstyle.css" />
     <Content Include="Content\things i dont need\bootstrap-grid.css" />
     <Content Include="Content\things i dont need\bootstrap-grid.min.css" />
@@ -226,6 +233,19 @@
     <None Include="Resources\peelystorelocation.png" />
     <None Include="Resources\spudlysponsor-fococlipping-standard.png" />
     <None Include="Resources\bananasponsor.png" />
+    <None Include="Resources\bananabowl.png" />
+    <None Include="Resources\banhelm.png" />
+    <None Include="Resources\bananaclock.png" />
+    <None Include="Resources\bananmug.png" />
+    <None Include="Resources\custchrissock.jpg" />
+    <None Include="Resources\redbananas.jpg" />
+    <None Include="Resources\bananaornament2.jpg" />
+    <None Include="Resources\bananaornament.png" />
+    <None Include="Resources\banan.jpg" />
+    <None Include="Resources\amazingsupporters.png" />
+    <None Include="Resources\banban.png" />
+    <None Include="Resources\loginbanana.png" />
+    <None Include="Resources\funlogin.png" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -263,6 +283,7 @@
     <Content Include="Views\Home\Fqa.cshtml" />
     <Content Include="Views\Home\Mproduct.cshtml" />
     <Content Include="Views\Home\yelMLban.cshtml" />
+    <Content Include="Views\Home\recepies.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -1,62 +1,76 @@
 ﻿@using Peelyyy.Models
 @model LoginViewModel
 @{
-    ViewBag.Title = "Log in";
+    ViewBag.Title = "Log in now!";
 }
 
-<main aria-labelledby="title">
-    <h2 id="title">@ViewBag.Title.</h2>
-    <div class="row">
-        <div class="col-md-8">
-            <section id="loginForm">
+<head>
+    <link rel="stylesheet" href="~/Content/login.css">
+</head>
+
+<main>
+    <div class="headingbox">
+        <h2 class="heading" id="title">@ViewBag.Title</h2>
+    </div>
+    <div>
+        <div>
+            <section>
                 @using (Html.BeginForm("Login", "Account", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { role = "form" }))
                 {
                     @Html.AntiForgeryToken()
-                    <h4>Use a local account to log in.</h4>
                     <hr />
                     @Html.ValidationSummary(true, "", new { @class = "text-danger" })
-                    <div class="row">
-                        @Html.LabelFor(m => m.Email, new { @class = "col-md-2 col-form-label" })
-                        <div class="col-md-10">
-                            @Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
-                            @Html.ValidationMessageFor(m => m.Email, "", new { @class = "text-danger" })
+            <div>
+                <span class="heading2">Welcome back!</span>
+                <br />
+                <div class="heading3box">
+                    <span class="heading3">Enter your details to log in</span>
+                </div>
+                </div>
+
+           
+            
+                <div class="loginbox">
+                    @Html.LabelFor(m => m.Email, new { @class = "labeltext" })
+                    <div>
+                        @Html.TextBoxFor(m => m.Email, new { placeholder = "example@email.com", @class = "textbox" })
+                        @Html.ValidationMessageFor(m => m.Email, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+                <div>
+                    @Html.LabelFor(m => m.Password, new { @class = "labeltext" })
+                    <div>
+                        @Html.PasswordFor(m => m.Password, new { placeholder = "password", @class = "textbox" })
+                        @Html.ValidationMessageFor(m => m.Password, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <div class="rembox">
+                            @Html.CheckBoxFor(m => m.RememberMe, new { @class = "remcheck remsa" })
+                            @Html.LabelFor(m => m.RememberMe, new { @class = "remtext remsa" })
                         </div>
                     </div>
-                    <div class="row">
-                        @Html.LabelFor(m => m.Password, new { @class = "col-md-2 col-form-label" })
-                        <div class="col-md-10">
-                            @Html.PasswordFor(m => m.Password, new { @class = "form-control" })
-                            @Html.ValidationMessageFor(m => m.Password, "", new { @class = "text-danger" })
-                        </div>
+                </div>
+                <div>
+                    <div>
+                        <input type="submit" value="Log in" class="logbutton" />
                     </div>
-                    <div class="row">
-                        <div class="offset-md-2 col-md-10">
-                            <div class="checkbox">
-                                @Html.CheckBoxFor(m => m.RememberMe)
-                                @Html.LabelFor(m => m.RememberMe)
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="offset-md-2 col-md-10">
-                            <input type="submit" value="Log in" class="btn btn-outline-dark" />
-                        </div>
-                    </div>
+                </div>
+                <p class="textnew">
+                    new user? @Html.ActionLink("Register now!", "Register", new { area = "" }, new { @class = "registerlink" })
+                </p>
+         
+
+
+                    @*  this once you have account confirmation enabled for password reset functionality
                     <p>
-                        @Html.ActionLink("Register as a new user", "Register")
-                    </p>
-                    @* Enable this once you have account confirmation enabled for password reset functionality
-                        <p>
-                            @Html.ActionLink("Forgot your password?", "ForgotPassword")
-                        </p>*@
+                        @Html.ActionLink("Forgot your password?", "ForgotPassword")
+                    </p>*@
                 }
             </section>
         </div>
-        <div class="col-md-4">
-            <section id="socialLoginForm">
-                @Html.Partial("_ExternalLoginsListPartial", new ExternalLoginListViewModel { ReturnUrl = ViewBag.ReturnUrl })
-            </section>
-        </div>
+        <hr />
     </div>
 </main>
 

@@ -1,3 +1,151 @@
-﻿body {
+﻿/* common */
 
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/*scrollbar hide*/
+
+* {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+    *::-webkit-scrollbar {
+        display: none;
+    }
+
+
+/* big title*/
+.heading {
+    font-size: 38px;
+    font-style: italic;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    letter-spacing: 0.25vw;
+    color: #71330A;
+}
+
+.headingbox{
+    margin-left: 41vw;
+    margin-top: 2vw;
+}
+
+/* navigation bar */
+
+.navlist {
+    list-style-type: none;
+    border-top: solid;
+    border-bottom: solid;
+    border-color: rgba(149, 206, 100, 0.5);
+    width: 90vw;
+    margin: 1vw 0vw 2vw 5vw;
+}
+
+.navitems {
+    float: left;
+    padding: 1.5vw 3vw 1.5vw 3vw;
+}
+
+.navlinka {
+    font-size: 16px;
+    text-decoration: none;
+    color: #629365;
+    font-weight: bold;
+}
+
+.navlinka:hover {
+    color: #412F25;
+    text-decoration: underline wavy #E1C914 0.05vw;
+}
+
+.firstnavitem{
+    padding-left:16vw;
+}
+
+/* smaller heading*/
+
+.heading2 {
+    font-size: 28px;
+    font-style: italic;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    letter-spacing: 0.5vw;
+    color: #71330A;
+    margin-left: 9vw;
+}
+
+/* info texts */
+
+.infotext{
+    font-size: 20px;
+    font-family: 'Times New Roman';
+    color:#412F25;
+    line-height: 1.8;
+}
+
+.infotextbox {
+    margin: 2vw 3vw 2vw 11vw;
+}
+
+/* sponsors */
+
+hr {
+    color: #95CE64;
+    width: 92vw;
+    margin-left: 4vw;
+}
+
+.simg {
+    width: 4vw;
+    height: 5vw;
+    float: left;
+    margin-right: 1vw;
+    margin-left: 4vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+
+.stext {
+    float: left;
+    margin-right: 1vw;
+    font-size: 18px;
+    font-family: 'Times New Roman';
+    font-style: italic;
+    padding-top: 2.5vw;
+    color: #412F25;
+    font-weight: bold;
+}
+
+.fimgs {
+    margin-left: 37vw;
+}
+
+.sponthank {
+    margin-left: 39vw;
+    font-family: 'Times New Roman';
+    font-size: 16px;
+    font-style: italic;
+    color: #412F25;
+    letter-spacing: 4px;
+    padding-bottom: 1vw;
+    padding-top: 1vw;
+}
+
+.openingh{
+    font-style: italic;
+}
+
+/* image */
+
+.spudsuport {
+    width: 42vw;
+    height: 32vw;
+    margin: 1vw 20vw;
+}
+
+.ty{
+    margin-left: 35vw;
 }

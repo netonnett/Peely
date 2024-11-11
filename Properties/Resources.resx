@@ -118,8 +118,26 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="amazingsupporters" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\amazingsupporters.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\banan.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="banana5pp" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\banana5pp.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bananabowl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bananabowl.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bananaclock" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bananaclock.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bananaornament" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bananaornament.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bananaornament2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bananaornament2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="bananapp1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bananapp1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -148,8 +166,23 @@
   <data name="bananasss" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bananasss.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="bananmug" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bananmug.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="bananna" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bananna.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banban" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\banban.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banhelm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\banhelm.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="custchrissock" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\custchrissock.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="funlogin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\funlogin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="green_banana_" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\green banana].jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -160,8 +193,14 @@
   <data name="Image__1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Image-_1_.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="loginbanana" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\loginbanana.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="peelystorelocation" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\peelystorelocation.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="redbananas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\redbananas.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="spudlysponsor" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\spudlysponsor-fococlipping-standard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>

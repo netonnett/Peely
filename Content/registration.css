@@ -1,0 +1,143 @@
+﻿/* common */
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+/*scrollbar hide*/
+
+* {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+    *::-webkit-scrollbar {
+        display: none;
+    }
+
+/* title */
+.heading {
+    font-size: 38px;
+    font-style: italic;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    letter-spacing: 0.25vw;
+    color: #71330A;
+    cursor: default;
+}
+
+.headingbox {
+    margin-left: 41vw;
+    margin-top: 2vw;
+}
+
+/* lines */
+
+hr {
+    width: 90vw;
+    color: rgba(127, 194, 155, 0.65);
+    margin: 1vw 0vw 2vw 5vw;
+}
+
+/* email, password and comfirm password label*/
+
+.labeltext {
+    font-size: 22px;
+    color: #412F25;
+    font-style: italic;
+    font-weight: 600;
+    margin-left: 14vw;
+    cursor: default;
+}
+
+/* email, password and comfirm password box */
+
+.textbox {
+    width: 17%;
+    padding: 0.5vw;
+    border: 0.25vw solid rgba(127, 194, 155, 0.65);
+    margin: 0.5vw 0vw 0.5vw 14vw;
+    border-radius: 0.25vw;
+    cursor: auto;
+    box-sizing: border-box;
+    outline: none;
+    transition: 0.5s;
+}
+
+    .textbox:focus {
+        border-color: #629365;
+        width: 20%;
+    }
+
+.regbox {
+    margin-top: 3vw;
+    margin-bottom: 1vw;
+}
+
+/* login button */
+
+.logbutton {
+    padding: 0.5vw 4vw;
+    font-size: 22px;
+    border: none;
+    border-radius: 4vw;
+    background-color: #629365;
+    color: #D3F6B7;
+    text-decoration: none;
+    transition: 0.5s;
+    margin-left: 17vw;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 2vw;
+    font-family: 'Times New Roman';
+    letter-spacing: 0.15vw;
+    cursor: pointer;
+}
+
+    .logbutton:hover {
+        transition: 0.5s;
+        font-weight: bold;
+        font-style: italic;
+        color: #629365;
+        background-color: #D3F6B7;
+        text-decoration: wavy;
+        text-decoration-thickness: 5px;
+        text-decoration-color: #E1C914;
+        padding-right: 5vw;
+        padding-left: 5vw;
+    }
+
+/* smaller text */
+
+.heading2 {
+    font-size: 28px;
+    font-style: italic;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    letter-spacing: 0.5vw;
+    color: #71330A;
+    margin-left: 8vw;
+    margin-bottom: 0.5vw;
+    cursor: default;
+}
+
+.heading3 {
+    font-size: 18px;
+    font-style: italic;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    letter-spacing: 0.5vw;
+    color: #71330A;
+    margin-left: 8vw;
+    opacity: 0.5;
+    cursor: default;
+    display:inline;
+}
+
+.heading3box {
+  
+    margin-bottom: 1vw;
+}

@@ -1,6 +1,10 @@
 ﻿body {
 }
 
+html{
+    scroll-behavior:smooth;
+}
+
 /* common for all */
 
 .clearfix::after {
@@ -13,6 +17,7 @@
     margin: 0vw;
     padding: 0vw;
 }
+
 
 /* navigationbar style */
 
@@ -68,6 +73,8 @@
     border-color: rgba(149, 206, 100, 0.5);
     padding-top: 5px;
     border-width: 2px;
+
+    cursor: pointer;
 }
 
 .liststyle {
@@ -114,7 +121,7 @@
     display: none;
     position: fixed;
     bottom: 10px;
-    right: 3px;
+    right: 10px;
     z-index: 99;
     border: none;
     outline: none;
@@ -125,15 +132,15 @@
     border-radius: 2px;
     font-size: 22px;
     float: right;
-    width: 5%;
+    width: 3%;
     opacity: 50%;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .totop:hover{
     background-color: #629365;
     color:rgba(149, 206, 100);
-
 }
 
 /* footer */
@@ -167,6 +174,7 @@
     font-family: 'Times New Roman';
     letter-spacing: 2px;
     text-decoration: none;
+    cursor: pointer;
     
 }
 
