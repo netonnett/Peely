@@ -1,0 +1,158 @@
+﻿/* common */
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/*scrollbar hide*/
+
+* {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+    *::-webkit-scrollbar {
+        display: none;
+    }
+
+
+/* big title*/
+.heading {
+    font-size: 38px;
+    font-style: italic;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    letter-spacing: 0.25vw;
+    color: #71330A;
+}
+
+.headingbox {
+    margin-left: 38vw;
+    margin-top: 2vw;
+}
+
+/* smaller heading*/
+
+.heading2 {
+    font-size: 28px;
+    font-style: italic;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    letter-spacing: 0.5vw;
+    color: #71330A;
+    margin-left: 9vw;
+    display: block;
+    cursor: context-menu;
+}
+
+/* lines */
+
+hr {
+    width: 84vw;
+    color: rgba(127, 194, 155, 0.65);
+    margin: 1vw 0vw 2vw 8vw;
+}
+
+/* navigation bar */
+
+.navlist {
+    list-style-type: none;
+    border-top: solid;
+    border-bottom: solid;
+    border-color: rgba(149, 206, 100, 0.5);
+    width: 90vw;
+    margin: 1vw 0vw 2vw 5vw;
+}
+
+.navitems {
+    float: left;
+    padding: 1.5vw 3vw 1.5vw 3vw;
+}
+
+.navlinka {
+    font-size: 16px;
+    text-decoration: none;
+    color: #629365;
+    font-weight: bold;
+}
+
+    .navlinka:hover {
+        color: #412F25;
+        text-decoration: underline wavy #E1C914 0.05vw;
+    }
+
+.firstnavitem {
+    padding-left: 10vw;
+}
+
+/* product boxes */
+.productboxban {
+    width: 90vw;
+    margin: 2vw 5vw 5vw 5vw;
+    display: block;
+    float: left;
+}
+
+.oneprobox {
+    border-style: solid;
+    border-color: rgba(103, 153, 108, 0.65);
+    width: 17vw;
+    height: 24vw;
+    border-radius: 1vw;
+    float: left;
+    margin-right: 4vw;
+    margin-bottom: 2vw;
+}
+
+.first-box{
+    margin-left: 4.1vw;
+}
+
+.ppimg {
+    width: 13vw;
+    height: 16vw;
+    padding-left: 2vw;
+    padding-top: 1vw;
+}
+
+.imgdes {
+    border-style: solid;
+    border-color: transparent;
+    margin-left: 4.5vw;
+    font-family: 'Times New Roman';
+    font-size: 16px;
+    color: #412F25;
+    font-style: italic;
+}
+
+.psbutton {
+    display: inline;
+    font-size: 16px;
+    border: none;
+    border-radius: 3vw;
+    background-color: #629365;
+    color: #D3F6B7;
+    padding-right: 1vw;
+    padding-left: 1vw;
+    padding-bottom: 0.25vw;
+    padding-top: 0.25vw;
+    text-decoration: none;
+    margin-left: 4.5vw;
+    margin-bottom: 1vw;
+    transition: 0.5s;
+}
+
+.psbutton:hover {
+    transition: 0.5s;
+    font-weight: bold;
+    font-style: italic;
+    color: #629365;
+    background-color: #D3F6B7;
+}
+
+.price{
+    margin-left: 7.5vw;
+    padding-bottom: 0.5vw;
+}

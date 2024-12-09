@@ -137,6 +137,7 @@
     color: #71330A;
     margin-left: 9vw;
     display: block;
+    cursor: context-menu;
 }
 
 .heading3 {
@@ -149,6 +150,7 @@
     margin-left: 12vw;
     display: block;
     text-decoration: underline solid #629365 0.05vw;
+    cursor: context-menu;
 }
 
 /* questions */
@@ -162,6 +164,7 @@
     color: #71330A;
     margin-left: 13vw;
     display: block;
+    cursor:context-menu;
 }
 
 /* info texts */
@@ -171,6 +174,7 @@
     font-family: 'Times New Roman';
     color: #412F25;
     line-height: 1.8;
+    cursor: context-menu;
 }
 
 .infotextbox {
@@ -183,6 +187,7 @@
     color: #412F25;
     text-decoration: underline wavy rgba(149, 206, 100, 0.5) 0.05vw;
     font-style: italic;
+    cursor: pointer;
 }
 
 .link-in-text:hover{

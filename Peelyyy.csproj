@@ -190,11 +190,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\aboutusstyle.css" />
+    <Content Include="Content\allproducts.css" />
     <Content Include="Content\fqastyle.css" />
     <Content Include="Content\javascript\contactinfo.js" />
     <Content Include="Content\contactstyle.css" />
     <Content Include="Content\homestyle.css" />
     <Content Include="Content\login.css" />
+    <Content Include="Content\recepiestyle.css" />
     <Content Include="Content\registration.css" />
     <Content Include="Content\sharedstyle.css" />
     <Content Include="Content\things i dont need\bootstrap-grid.css" />

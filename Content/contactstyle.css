@@ -1,7 +1,4 @@
-﻿body {
-}
-
-/* common */
+﻿/* common */
 
 .clearfix::after {
     content: "";
@@ -51,4 +48,12 @@
 
 .email {
     text-decoration: underline wavy #629365 0.05vw;
+}
+
+/* lines */
+
+hr {
+    width: 84vw;
+    color: rgba(127, 194, 155, 0.65);
+    margin: 1vw 0vw 2vw 8vw;
 }
